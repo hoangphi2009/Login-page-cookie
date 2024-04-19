@@ -5,12 +5,12 @@
 </head>
 <body>
 <form action="/mailbox/" method="post">
-    <h1>welcome</h1>
+    <h1>Register Mail Account</h1>
     <table>
         <tr>
             <td>Your Name</td>
-            <td><input type="text" name="firstname"></td>
-            <td><input type="text" name="lastname"></td>
+            <td ><input type="text" name="fname"></td>
+            <td ><input type="text" name="lname"></td>
         </tr>
         <tr>
             <td>Gender</td>
@@ -21,37 +21,37 @@
             <td>Birthday</td>
             <td>
                 <select name="days" id="days">
-                    <option value="day">1</option>
-                    <option value="day">2</option>
-                    <option value="day">3</option>
-                    <option value="day">4</option>
-                    <option value="day">5</option>
-                    <option value="day">6</option>
-                    <option value="day">7</option>
-                    <option value="day">8</option>
-                    <option value="day">9</option>
-                    <option value="day">10</option>
-                    <option value="day">11</option>
-                    <option value="day">12</option>
-                    <option value="day">13</option>
-                    <option value="day">14</option>
-                    <option value="day">15</option>
-                    <option value="day">16</option>
-                    <option value="day">17</option>
-                    <option value="day">18</option>
-                    <option value="day">19</option>
-                    <option value="day">20</option>
-                    <option value="day">21</option>
-                    <option value="day">22</option>
-                    <option value="day">23</option>
-                    <option value="day">24</option>
-                    <option value="day">25</option>
-                    <option value="day">26</option>
-                    <option value="day">27</option>
-                    <option value="day">28</option>
-                    <option value="day">29</option>
-                    <option value="day">30</option>
-                    <option value="day">32</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
                 </select>
             </td>
             <td>
@@ -117,6 +117,5 @@
         </tr>
     </table>
 </form>
-
 </body>
 </html>
